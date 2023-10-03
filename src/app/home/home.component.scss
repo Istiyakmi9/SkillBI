@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.hero-section-title {
+    font-size: 4rem;
+}
+
+.login-btn {
+    right: 1rem;
+    top: 1rem;
+    z-index: 999;
+}
+
+@media only screen and (min-width: 1700px) {
+    .hero-section {
+        padding-left: 20rem !important;
+    }
+}
+
+.section-title {
+    font-size: 3rem;
+}
+
+
+.content-wrapper {
+    position: sticky !important;
+    top: 2.5rem !important;
+    position: -webkit-sticky !important;
+}
